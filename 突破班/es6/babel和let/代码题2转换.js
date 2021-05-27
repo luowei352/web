@@ -1,4 +1,6 @@
 "use strict";
 
-const a = 10;
-a = 20;
+function _readOnlyError(name) { throw new TypeError("\"" + name + "\" is read-only"); }
+
+var a = 10;
+20, _readOnlyError("a");
